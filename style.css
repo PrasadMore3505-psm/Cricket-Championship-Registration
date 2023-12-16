@@ -99,6 +99,45 @@ button:hover{
 /*----------------------------------------------------------------------RIGHT SIDE ************/
 
 .container .right{
-    background-color: aqua;
+
     width: 90vmin;
+    color: black;
+    font-size: 20px;
+    display: flex;
+   
+    flex-direction: column;
+}
+
+.container .heading{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .right .registerd-users{
+  
+}
+
+
+
+
+
+.right h1{
+    font-size: 20px;
+    color: #FD5C21;
+    
+}
+.users{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: 1px solid black;
+    margin: 20px 0px;
+}
+.right-title h1{
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    word-spacing: 10px;
+    text-decoration: underline #FD5C21;
 }
